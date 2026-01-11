@@ -1,0 +1,173 @@
+---
+# 页面基本信息
+pageInfo:
+  title: 我的主页
+  description: 欢迎回家！
+  navLinks:
+  - title: GitHub Trending
+    path: https://github.com/trending
+  - title: ChatGPT
+    path: https://chat.openai.com
+  - title: Claude
+    path: https://claude.ai
+
+# 应用配置
+appConfig:
+  theme: colorful
+  language: zh
+  layout: auto
+  targeting: newtab
+  statusCheck: true
+  statusCheckInterval: 60
+
+# 主要内容分区
+sections:
+# ============= AI 工具 =============
+- name: AI 工具
+  icon: fas fa-robot
+  items:
+  - title: ChatGPT
+    description: OpenAI 的 AI 聊天助手
+    url: https://chat.openai.com
+    icon: fas fa-comment-dots
+    target: newtab
+  - title: Claude
+    description: Anthropic 的 AI 助手
+    url: https://claude.ai
+    icon: fas fa-brain
+    target: newtab
+  - title: Perplexity
+    description: AI 搜索引擎
+    url: https://www.perplexity.ai
+    icon: fas fa-search
+    target: newtab
+  - title: Gemini
+    description: Google 的 AI 助手
+    url: https://gemini.google.com
+    icon: fas fa-gem
+    target: newtab
+  - title: Midjourney
+    description: AI 绘画工具
+    url: https://www.midjourney.com
+    icon: fas fa-palette
+    target: newtab
+  - title: Runway
+    description: AI 视频生成
+    url: https://runway.ml
+    icon: fas fa-video
+    target: newtab
+
+# ============= 开发工具 =============
+- name: 开发工具
+  icon: fas fa-code
+  items:
+  - title: QCode Dashboard
+    description: QCode 控制台
+    url: https://qcode.cc/dashboard
+    icon: fas fa-tachometer-alt
+    target: newtab
+  - title: shadcn Themer
+    description: shadcn 主题生成器
+    url: https://shadcnthemer.com
+    icon: fas fa-paint-brush
+    target: newtab
+  - title: GitHub
+    description: 代码托管平台
+    url: https://github.com
+    icon: fab fa-github
+    target: newtab
+  - title: GitHub Trending
+    description: GitHub 热门趋势
+    url: https://github.com/trending
+    icon: fas fa-fire
+    target: newtab
+  - title: Vercel
+    description: 前端部署平台
+    url: https://vercel.com
+    icon: fas fa-cloud-upload-alt
+    target: newtab
+  - title: StackBlitz
+    description: 在线代码编辑器
+    url: https://stackblitz.com
+    icon: fas fa-bolt
+    target: newtab
+
+# ============= 营销工具 =============
+- name: 营销工具
+  icon: fas fa-bullhorn
+  items:
+  - title: 营销俱乐部
+    description: yingxiaoclub.com
+    url: https://yingxiaoclub.com
+    icon: fas fa-users
+    target: newtab
+  - title: 茂宣应用
+    description: maoxuan.app
+    url: https://maoxuan.app
+    icon: fas fa-ad
+    target: newtab
+
+# ============= 常用网站 =============
+- name: 常用网站
+  icon: fas fa-star
+  items:
+  - title: Google
+    description: 谷歌搜索
+    url: https://www.google.com
+    icon: fab fa-google
+    target: newtab
+  - title: YouTube
+    description: 视频平台
+    url: https://www.youtube.com
+    icon: fab fa-youtube
+    target: newtab
+  - title: Twitter
+    description: 社交媒体
+    url: https://twitter.com
+    icon: fab fa-twitter
+    target: newtab
+  - title: Reddit
+    description: 社区论坛
+    url: https://www.reddit.com
+    icon: fab fa-reddit
+    target: newtab
+  - title: Hacker News
+    description: 技术新闻
+    url: https://news.ycombinator.com
+    icon: fab fa-hacker-news
+    target: newtab
+  - title: Product Hunt
+    description: 产品发现
+    url: https://www.producthunt.com
+    icon: fas fa-rocket
+    target: newtab
+
+# ============= 设计资源 =============
+- name: 设计资源
+  icon: fas fa-pencil-ruler
+  items:
+  - title: Figma
+    description: 在线设计工具
+    url: https://www.figma.com
+    icon: fab fa-figma
+    target: newtab
+  - title: Dribbble
+    description: 设计灵感
+    url: https://dribbble.com
+    icon: fab fa-dribbble
+    target: newtab
+  - title: Behance
+    description: 作品展示
+    url: https://www.behance.net
+    icon: fab fa-behance
+    target: newtab
+  - title: Iconify
+    description: 图标库
+    url: https://iconify.design
+    icon: fas fa-icons
+    target: newtab
+  - title: Unsplash
+    description: 免费图片
+    url: https://unsplash.com
+    icon: fas fa-image
+    target: newtab
