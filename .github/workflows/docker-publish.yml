@@ -46,8 +46,9 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+          # 移除缓存配置，解决 docker driver 问题
+          cache-from: ''
+          cache-to: ''
 
   deploy:
     needs: build-and-push
