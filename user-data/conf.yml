@@ -1,5 +1,4 @@
 ---
-# 页面基本信息
 pageInfo:
   title: 我的主页
   description: 欢迎回家！
@@ -11,7 +10,6 @@ pageInfo:
   - title: Claude
     path: https://claude.ai
 
-# 应用配置
 appConfig:
   theme: colorful
   language: zh
@@ -20,9 +18,7 @@ appConfig:
   statusCheck: true
   statusCheckInterval: 60
 
-# 主要内容分区
 sections:
-# ============= AI 工具 =============
 - name: AI 工具
   icon: fas fa-robot
   items:
@@ -57,7 +53,6 @@ sections:
     icon: fas fa-video
     target: newtab
 
-# ============= 开发工具 =============
 - name: 开发工具
   icon: fas fa-code
   items:
@@ -92,7 +87,6 @@ sections:
     icon: fas fa-bolt
     target: newtab
 
-# ============= 营销工具 =============
 - name: 营销工具
   icon: fas fa-bullhorn
   items:
@@ -107,7 +101,6 @@ sections:
     icon: fas fa-ad
     target: newtab
 
-# ============= 常用网站 =============
 - name: 常用网站
   icon: fas fa-star
   items:
@@ -142,7 +135,6 @@ sections:
     icon: fas fa-rocket
     target: newtab
 
-# ============= 设计资源 =============
 - name: 设计资源
   icon: fas fa-pencil-ruler
   items:
